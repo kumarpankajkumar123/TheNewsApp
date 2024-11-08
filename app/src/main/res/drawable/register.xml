@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/multi_image_background.xml -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/fone" />
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/two" />
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/three" />
+    </item>
+
+</layer-list>
+

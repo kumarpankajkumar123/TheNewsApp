@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Themeunderstanding" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+<!--         <item name="colorPrimary">@color/primaryColor</item>-->
+<!--         <item name="colorPrimaryVariant">#2E47E4</item>-->
+<!--         <item name="colorOnPrimary">#1E1C1C</item>-->
+<!--         <item name="colorSecondary">#039BE5</item>-->
+<!--         <item name="colorOnSecondary">#CE81E3</item>-->
+
+    </style>
+
+    <style name="Theme.Themeunderstanding" parent="Base.Theme.Themeunderstanding" />
+</resources>
