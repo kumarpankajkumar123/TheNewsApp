@@ -104,22 +104,22 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5" />
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="26dp"
-                android:layout_marginBottom="70dp"
-                android:text="GET STARTED"
-                android:textColor="#ffffff"
-                android:textSize="14sp"
-                app:cornerRadius="2dp"
-                android:backgroundTint="#EEA734"
-                android:layout_marginStart="17dp"
-                android:layout_marginEnd="17dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="26dp"-->
+<!--                android:layout_marginBottom="70dp"-->
+<!--                android:text="Next"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:textSize="14sp"-->
+<!--                app:cornerRadius="10dp"-->
+<!--                android:backgroundTint="#EEA734"-->
+<!--                android:layout_marginStart="17dp"-->
+<!--                android:layout_marginEnd="17dp"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/imageView2"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"/>-->
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

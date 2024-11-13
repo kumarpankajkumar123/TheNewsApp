@@ -26,7 +26,10 @@ public class UiDesign extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(UiDesign.this, ViewPager2.class));
+                boolean isFirstTime = getSharedPreferences("Onboarding", MODE_PRIVATE).getBoolean("isFirstTime", true);
+                Intent intent = new Intent(UiDesign.this, isFirstTime ? ViewPager2.class : MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         },2000);
 

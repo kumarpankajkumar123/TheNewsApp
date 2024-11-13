@@ -2,6 +2,7 @@ package com.example.themeunderstanding.Adaptor;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
@@ -11,8 +12,11 @@ import com.example.themeunderstanding.Fragmentation.SecondFragement;
 import com.example.themeunderstanding.Fragmentation.ThirdFragment;
 
 public class ViewPagerAdaptorClass extends FragmentStateAdapter {
-    public ViewPagerAdaptorClass(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
-        super(fragmentManager, lifecycle);
+//    public ViewPagerAdaptorClass(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
+//        super(fragmentManager, lifecycle);
+
+    public ViewPagerAdaptorClass(@NonNull FragmentActivity fragmentActivity) {
+        super(fragmentActivity);
     }
 
     @NonNull
